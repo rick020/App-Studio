@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,44 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problemset Week1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P48-89-5uW">
+                                <rect key="frame" x="162" y="267" width="276" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="Umx-dv-o7B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rick Bruins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozQ-oA-wzJ">
+                                <rect key="frame" x="162" y="340" width="276" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Q4r-m5-zaV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10647368" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbn-gC-l2c">
+                                <rect key="frame" x="162" y="372" width="276" height="21"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lbn-gC-l2c" firstAttribute="top" secondItem="ozQ-oA-wzJ" secondAttribute="bottom" constant="8" symbolic="YES" id="2lg-aS-eEE"/>
+                            <constraint firstItem="P48-89-5uW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="247" id="9aJ-co-5tU"/>
+                            <constraint firstItem="P48-89-5uW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IQG-d1-ciJ"/>
+                            <constraint firstItem="P48-89-5uW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IXb-JY-WMm"/>
+                            <constraint firstItem="Lbn-gC-l2c" firstAttribute="trailing" secondItem="ozQ-oA-wzJ" secondAttribute="trailing" id="OUg-yX-VzY"/>
+                            <constraint firstItem="Lbn-gC-l2c" firstAttribute="trailing" secondItem="P48-89-5uW" secondAttribute="trailing" id="aR4-zw-3io"/>
+                            <constraint firstItem="ozQ-oA-wzJ" firstAttribute="top" secondItem="P48-89-5uW" secondAttribute="bottom" constant="8" symbolic="YES" id="aUy-pI-Sw6"/>
+                            <constraint firstItem="Lbn-gC-l2c" firstAttribute="leading" secondItem="ozQ-oA-wzJ" secondAttribute="leading" id="k25-AV-kZE"/>
+                            <constraint firstItem="Lbn-gC-l2c" firstAttribute="leading" secondItem="P48-89-5uW" secondAttribute="leading" id="pw9-qN-Jxn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

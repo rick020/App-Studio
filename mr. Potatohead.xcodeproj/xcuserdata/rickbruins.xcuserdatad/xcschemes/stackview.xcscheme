@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-               BuildableName = "stackview.app"
-               BlueprintName = "stackview"
-               ReferencedContainer = "container:stackview.xcodeproj">
+               BuildableName = "mr. Potatohead.app"
+               BlueprintName = "mr. Potatohead"
+               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD37B31D83502D002A5E39"
-               BuildableName = "stackviewTests.xctest"
-               BlueprintName = "stackviewTests"
-               ReferencedContainer = "container:stackview.xcodeproj">
+               BuildableName = "mr. Potatohead.xctest"
+               BlueprintName = "mr. PotatoheadTests"
+               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD37BE1D83502D002A5E39"
-               BuildableName = "stackviewUITests.xctest"
-               BlueprintName = "stackviewUITests"
-               ReferencedContainer = "container:stackview.xcodeproj">
+               BuildableName = "mr. Potatohead.xctest"
+               BlueprintName = "mr. PotatoheadUITests"
+               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "stackview.app"
-            BlueprintName = "stackview"
-            ReferencedContainer = "container:stackview.xcodeproj">
+            BuildableName = "mr. Potatohead.app"
+            BlueprintName = "mr. Potatohead"
+            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "stackview.app"
-            BlueprintName = "stackview"
-            ReferencedContainer = "container:stackview.xcodeproj">
+            BuildableName = "mr. Potatohead.app"
+            BlueprintName = "mr. Potatohead"
+            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "stackview.app"
-            BlueprintName = "stackview"
-            ReferencedContainer = "container:stackview.xcodeproj">
+            BuildableName = "mr. Potatohead.app"
+            BlueprintName = "mr. Potatohead"
+            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

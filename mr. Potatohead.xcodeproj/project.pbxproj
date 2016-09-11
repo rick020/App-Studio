@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25DD37A01D83502D002A5E39 /* stackview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stackview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD37A01D83502D002A5E39 /* mr. Potatohead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mr. Potatohead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD37A31D83502D002A5E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25DD37A51D83502D002A5E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25DD37A81D83502D002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25DD37AA1D83502D002A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25DD37AD1D83502D002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25DD37AF1D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25DD37B41D83502D002A5E39 /* stackviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD37B41D83502D002A5E39 /* mr. Potatohead.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mr. Potatohead.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD37B81D83502D002A5E39 /* stackviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackviewTests.swift; sourceTree = "<group>"; };
 		25DD37BA1D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25DD37BF1D83502D002A5E39 /* stackviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD37BF1D83502D002A5E39 /* mr. Potatohead.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mr. Potatohead.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD37C31D83502D002A5E39 /* stackviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackviewUITests.swift; sourceTree = "<group>"; };
 		25DD37C51D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		25DD37971D83502D002A5E39 = {
 			isa = PBXGroup;
 			children = (
-				25DD37A21D83502D002A5E39 /* stackview */,
+				25DD37A21D83502D002A5E39 /* mr. Potatohead */,
 				25DD37B71D83502D002A5E39 /* stackviewTests */,
 				25DD37C21D83502D002A5E39 /* stackviewUITests */,
 				25DD37A11D83502D002A5E39 /* Products */,
@@ -87,14 +87,14 @@
 		25DD37A11D83502D002A5E39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25DD37A01D83502D002A5E39 /* stackview.app */,
-				25DD37B41D83502D002A5E39 /* stackviewTests.xctest */,
-				25DD37BF1D83502D002A5E39 /* stackviewUITests.xctest */,
+				25DD37A01D83502D002A5E39 /* mr. Potatohead.app */,
+				25DD37B41D83502D002A5E39 /* mr. Potatohead.xctest */,
+				25DD37BF1D83502D002A5E39 /* mr. Potatohead.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25DD37A21D83502D002A5E39 /* stackview */ = {
+		25DD37A21D83502D002A5E39 /* mr. Potatohead */ = {
 			isa = PBXGroup;
 			children = (
 				25DD37A31D83502D002A5E39 /* AppDelegate.swift */,
@@ -104,6 +104,7 @@
 				25DD37AC1D83502D002A5E39 /* LaunchScreen.storyboard */,
 				25DD37AF1D83502D002A5E39 /* Info.plist */,
 			);
+			name = "mr. Potatohead";
 			path = stackview;
 			sourceTree = "<group>";
 		};
@@ -128,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25DD379F1D83502D002A5E39 /* stackview */ = {
+		25DD379F1D83502D002A5E39 /* mr. Potatohead */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25DD37C81D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackview" */;
+			buildConfigurationList = 25DD37C81D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. Potatohead" */;
 			buildPhases = (
 				25DD379C1D83502D002A5E39 /* Sources */,
 				25DD379D1D83502D002A5E39 /* Frameworks */,
@@ -140,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = stackview;
+			name = "mr. Potatohead";
 			productName = stackview;
-			productReference = 25DD37A01D83502D002A5E39 /* stackview.app */;
+			productReference = 25DD37A01D83502D002A5E39 /* mr. Potatohead.app */;
 			productType = "com.apple.product-type.application";
 		};
-		25DD37B31D83502D002A5E39 /* stackviewTests */ = {
+		25DD37B31D83502D002A5E39 /* mr. PotatoheadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25DD37CB1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackviewTests" */;
+			buildConfigurationList = 25DD37CB1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. PotatoheadTests" */;
 			buildPhases = (
 				25DD37B01D83502D002A5E39 /* Sources */,
 				25DD37B11D83502D002A5E39 /* Frameworks */,
@@ -158,14 +159,14 @@
 			dependencies = (
 				25DD37B61D83502D002A5E39 /* PBXTargetDependency */,
 			);
-			name = stackviewTests;
+			name = "mr. PotatoheadTests";
 			productName = stackviewTests;
-			productReference = 25DD37B41D83502D002A5E39 /* stackviewTests.xctest */;
+			productReference = 25DD37B41D83502D002A5E39 /* mr. Potatohead.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		25DD37BE1D83502D002A5E39 /* stackviewUITests */ = {
+		25DD37BE1D83502D002A5E39 /* mr. PotatoheadUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25DD37CE1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackviewUITests" */;
+			buildConfigurationList = 25DD37CE1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. PotatoheadUITests" */;
 			buildPhases = (
 				25DD37BB1D83502D002A5E39 /* Sources */,
 				25DD37BC1D83502D002A5E39 /* Frameworks */,
@@ -176,9 +177,9 @@
 			dependencies = (
 				25DD37C11D83502D002A5E39 /* PBXTargetDependency */,
 			);
-			name = stackviewUITests;
+			name = "mr. PotatoheadUITests";
 			productName = stackviewUITests;
-			productReference = 25DD37BF1D83502D002A5E39 /* stackviewUITests.xctest */;
+			productReference = 25DD37BF1D83502D002A5E39 /* mr. Potatohead.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25DD379B1D83502D002A5E39 /* Build configuration list for PBXProject "stackview" */;
+			buildConfigurationList = 25DD379B1D83502D002A5E39 /* Build configuration list for PBXProject "mr. Potatohead" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25DD379F1D83502D002A5E39 /* stackview */,
-				25DD37B31D83502D002A5E39 /* stackviewTests */,
-				25DD37BE1D83502D002A5E39 /* stackviewUITests */,
+				25DD379F1D83502D002A5E39 /* mr. Potatohead */,
+				25DD37B31D83502D002A5E39 /* mr. PotatoheadTests */,
+				25DD37BE1D83502D002A5E39 /* mr. PotatoheadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		25DD37B61D83502D002A5E39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 25DD379F1D83502D002A5E39 /* stackview */;
+			target = 25DD379F1D83502D002A5E39 /* mr. Potatohead */;
 			targetProxy = 25DD37B51D83502D002A5E39 /* PBXContainerItemProxy */;
 		};
 		25DD37C11D83502D002A5E39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 25DD379F1D83502D002A5E39 /* stackview */;
+			target = 25DD379F1D83502D002A5E39 /* mr. Potatohead */;
 			targetProxy = 25DD37C01D83502D002A5E39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,8 +407,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stackview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackview;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.studentname-pset1";
+				PRODUCT_NAME = "mr. Potatohead";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -420,8 +421,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stackview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackview;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.studentname-pset1";
+				PRODUCT_NAME = "mr. Potatohead";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -433,8 +434,8 @@
 				INFOPLIST_FILE = stackviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackview.app/stackview";
+				PRODUCT_NAME = "mr. Potatohead";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mr. Potatohead.app/mr. Potatohead";
 			};
 			name = Debug;
 		};
@@ -445,8 +446,8 @@
 				INFOPLIST_FILE = stackviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackview.app/stackview";
+				PRODUCT_NAME = "mr. Potatohead";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mr. Potatohead.app/mr. Potatohead";
 			};
 			name = Release;
 		};
@@ -456,7 +457,7 @@
 				INFOPLIST_FILE = stackviewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackviewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "mr. Potatohead";
 				TEST_TARGET_NAME = stackview;
 			};
 			name = Debug;
@@ -467,7 +468,7 @@
 				INFOPLIST_FILE = stackviewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.stackviewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "mr. Potatohead";
 				TEST_TARGET_NAME = stackview;
 			};
 			name = Release;
@@ -475,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25DD379B1D83502D002A5E39 /* Build configuration list for PBXProject "stackview" */ = {
+		25DD379B1D83502D002A5E39 /* Build configuration list for PBXProject "mr. Potatohead" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25DD37C61D83502D002A5E39 /* Debug */,
@@ -484,29 +485,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25DD37C81D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackview" */ = {
+		25DD37C81D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. Potatohead" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25DD37C91D83502D002A5E39 /* Debug */,
 				25DD37CA1D83502D002A5E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		25DD37CB1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackviewTests" */ = {
+		25DD37CB1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. PotatoheadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25DD37CC1D83502D002A5E39 /* Debug */,
 				25DD37CD1D83502D002A5E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		25DD37CE1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "stackviewUITests" */ = {
+		25DD37CE1D83502D002A5E39 /* Build configuration list for PBXNativeTarget "mr. PotatoheadUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25DD37CF1D83502D002A5E39 /* Debug */,
 				25DD37D01D83502D002A5E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
