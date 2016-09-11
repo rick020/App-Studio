@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import stackview
 
 class stackviewTests: XCTestCase {
     

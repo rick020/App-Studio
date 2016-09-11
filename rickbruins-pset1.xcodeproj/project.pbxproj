@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257E87771D85F69B00E16192 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 257E87761D85F69B00E16192 /* Default-568h@2x.png */; };
 		25DD37A41D83502D002A5E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD37A31D83502D002A5E39 /* AppDelegate.swift */; };
 		25DD37A61D83502D002A5E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD37A51D83502D002A5E39 /* ViewController.swift */; };
 		25DD37A91D83502D002A5E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DD37A71D83502D002A5E39 /* Main.storyboard */; };
@@ -34,13 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		257E87761D85F69B00E16192 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25DD37A01D83502D002A5E39 /* rickbruins-pset1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rickbruins-pset1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25DD37A31D83502D002A5E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25DD37A51D83502D002A5E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25DD37A31D83502D002A5E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../rickbruins-pset1/AppDelegate.swift"; sourceTree = "<group>"; };
+		25DD37A51D83502D002A5E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../rickbruins-pset1/ViewController.swift"; sourceTree = "<group>"; };
 		25DD37A81D83502D002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25DD37AA1D83502D002A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DD37AA1D83502D002A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../rickbruins-pset1/Assets.xcassets"; sourceTree = "<group>"; };
 		25DD37AD1D83502D002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		25DD37AF1D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DD37AF1D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../rickbruins-pset1/Info.plist"; sourceTree = "<group>"; };
 		25DD37B41D83502D002A5E39 /* rickbruins-pset1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rickbruins-pset1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD37B81D83502D002A5E39 /* rickbruins-pset1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "rickbruins-pset1Tests.swift"; sourceTree = "<group>"; };
 		25DD37BA1D83502D002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		25DD37971D83502D002A5E39 = {
 			isa = PBXGroup;
 			children = (
+				257E87761D85F69B00E16192 /* Default-568h@2x.png */,
 				25DD37A21D83502D002A5E39 /* rickbruins-pset1 */,
 				25DD37B71D83502D002A5E39 /* rickbruins-pset1Tests */,
 				25DD37C21D83502D002A5E39 /* rickbruins-pset1UITests */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DD37AE1D83502D002A5E39 /* LaunchScreen.storyboard in Resources */,
+				257E87771D85F69B00E16192 /* Default-568h@2x.png in Resources */,
 				25DD37AB1D83502D002A5E39 /* Assets.xcassets in Resources */,
 				25DD37A91D83502D002A5E39 /* Main.storyboard in Resources */,
 			);
@@ -303,6 +307,7 @@
 				25DD37A81D83502D002A5E39 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../rickbruins-pset1";
 			sourceTree = "<group>";
 		};
 		25DD37AC1D83502D002A5E39 /* LaunchScreen.storyboard */ = {
@@ -311,6 +316,7 @@
 				25DD37AD1D83502D002A5E39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../rickbruins-pset1";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,7 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = stackview/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/rickbruins-pset1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.rickbruins-pset1";
 				PRODUCT_NAME = "rickbruins-pset1";
@@ -421,7 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = stackview/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/rickbruins-pset1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.rickbruins-pset1";
 				PRODUCT_NAME = "rickbruins-pset1";
