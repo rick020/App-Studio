@@ -33,9 +33,12 @@ class ViewController: UIViewController {
 
    
     @IBAction func removeArms(sender: UISwitch) {
+        
+        //hide image when switch is turned off
         if sender.on != true {
             armsImage.hidden=true
         }
+        //show image when switch is turned on
         else{
             armsImage.hidden=false
         }
@@ -108,10 +111,15 @@ class ViewController: UIViewController {
         shoesImage.hidden=false
         }
     }
+    
+    //other method for hiding/showing images
+    
 //    @IBAction func testAction(sender: UISwitch) {
 //        
 //        let tag = sender.tag
-//        
+    
+//        //hide or show image depending on the switch
+          //each switch has their own tag
 //        switch tag {
 //        case 1:
 //            if sender.on != true {
