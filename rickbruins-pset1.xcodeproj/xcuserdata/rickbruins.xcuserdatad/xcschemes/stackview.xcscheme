@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD379F1D83502D002A5E39"
                BuildableName = "mr. Potatohead.app"
-               BlueprintName = "mr. Potatohead"
-               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+               BlueprintName = "rickbruins-pset1"
+               ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD37B31D83502D002A5E39"
-               BuildableName = "mr. Potatohead.xctest"
-               BlueprintName = "mr. PotatoheadTests"
-               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+               BuildableName = "rickbruins-pset1.xctest"
+               BlueprintName = "rickbruins-pset1Tests"
+               ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD37BE1D83502D002A5E39"
-               BuildableName = "mr. Potatohead.xctest"
-               BlueprintName = "mr. PotatoheadUITests"
-               ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+               BuildableName = "rickbruins-pset1.xctest"
+               BlueprintName = "rickbruins-pset1UITests"
+               ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
             BuildableName = "mr. Potatohead.app"
-            BlueprintName = "mr. Potatohead"
-            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+            BlueprintName = "rickbruins-pset1"
+            ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
             BuildableName = "mr. Potatohead.app"
-            BlueprintName = "mr. Potatohead"
-            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+            BlueprintName = "rickbruins-pset1"
+            ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
             BuildableName = "mr. Potatohead.app"
-            BlueprintName = "mr. Potatohead"
-            ReferencedContainer = "container:mr. Potatohead.xcodeproj">
+            BlueprintName = "rickbruins-pset1"
+            ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
