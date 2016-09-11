@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-               BuildableName = "mr. Potatohead.app"
+               BuildableName = "rickbruins-pset1.app"
                BlueprintName = "rickbruins-pset1"
                ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "mr. Potatohead.app"
+            BuildableName = "rickbruins-pset1.app"
             BlueprintName = "rickbruins-pset1"
             ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "mr. Potatohead.app"
+            BuildableName = "rickbruins-pset1.app"
             BlueprintName = "rickbruins-pset1"
             ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25DD379F1D83502D002A5E39"
-            BuildableName = "mr. Potatohead.app"
+            BuildableName = "rickbruins-pset1.app"
             BlueprintName = "rickbruins-pset1"
             ReferencedContainer = "container:rickbruins-pset1.xcodeproj">
          </BuildableReference>
