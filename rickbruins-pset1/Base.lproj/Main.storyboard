@@ -141,56 +141,56 @@
                                                 <rect key="frame" x="106" y="50" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeArms:" destination="BYZ-38-t0r" eventType="valueChanged" id="GcZ-wF-9h6"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="zcd-F7-3Tt"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3qc-JK-ZrK">
                                                 <rect key="frame" x="106" y="204" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeGlasses:" destination="BYZ-38-t0r" eventType="valueChanged" id="BFM-TW-4Mg"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="7i0-eb-K81"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K96-bm-kVb">
                                                 <rect key="frame" x="106" y="165" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeEyes:" destination="BYZ-38-t0r" eventType="valueChanged" id="Dv8-X6-bdA"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="LB5-vf-M2d"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3UB-nF-iXC">
                                                 <rect key="frame" x="106" y="87" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeEars:" destination="BYZ-38-t0r" eventType="valueChanged" id="cwe-7Z-LaS"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="bJP-X3-4Ip"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tEq-fR-kQI">
                                                 <rect key="frame" x="447" y="50" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeHat:" destination="BYZ-38-t0r" eventType="valueChanged" id="XkS-5A-dZ9"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="3kx-VN-95k"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FoV-si-e3I">
                                                 <rect key="frame" x="447" y="204" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeShoes:" destination="BYZ-38-t0r" eventType="valueChanged" id="aeH-KH-Crb"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="VCn-uX-bo2"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yxF-7d-aL9">
                                                 <rect key="frame" x="447" y="165" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeNose:" destination="BYZ-38-t0r" eventType="valueChanged" id="bNJ-bu-P0b"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="z03-wA-fZU"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IhC-iv-yTo">
                                                 <rect key="frame" x="447" y="87" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeMouth:" destination="BYZ-38-t0r" eventType="valueChanged" id="XPO-Zi-gtK"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="qSC-cW-YVo"/>
                                                 </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Arms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQ8-5t-2rU">
@@ -251,14 +251,14 @@
                                                 <rect key="frame" x="447" y="126" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeMustache:" destination="BYZ-38-t0r" eventType="valueChanged" id="dl2-qS-ysM"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="62R-e0-dtN"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J9X-Vd-Qe2">
                                                 <rect key="frame" x="106" y="126" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.42246247999999997" green="0.53211516380000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="removeEyebrows:" destination="BYZ-38-t0r" eventType="valueChanged" id="7oC-lw-rhg"/>
+                                                    <action selector="changeParts:" destination="BYZ-38-t0r" eventType="valueChanged" id="KrS-dM-ZP6"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
@@ -343,16 +343,26 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="armSwitch" destination="Lag-gh-9ul" id="QLG-Ph-Rps"/>
                         <outlet property="armsImage" destination="fmh-Sc-ZoU" id="o5K-UN-mLr"/>
+                        <outlet property="earSwitch" destination="3UB-nF-iXC" id="3ae-6R-FsX"/>
                         <outlet property="earsImage" destination="WRe-Sr-NZn" id="okd-2A-8UH"/>
+                        <outlet property="eyeSwitch" destination="K96-bm-kVb" id="HK8-N1-3gl"/>
                         <outlet property="eyebrowsImage" destination="cLn-Go-9bl" id="pBe-ed-lbM"/>
+                        <outlet property="eyebrowsSwitch" destination="J9X-Vd-Qe2" id="iza-8P-pfU"/>
                         <outlet property="eyesImage" destination="PlQ-vS-mNk" id="95e-Se-363"/>
                         <outlet property="glassesImage" destination="Wl8-H0-8rN" id="gGa-3j-gA4"/>
+                        <outlet property="glassesSwitch" destination="3qc-JK-ZrK" id="qTY-JK-ecB"/>
                         <outlet property="hatImage" destination="eWk-mg-8i3" id="lJL-xh-v88"/>
+                        <outlet property="hatSwitch" destination="tEq-fR-kQI" id="hVA-uA-1Qp"/>
                         <outlet property="mouthImage" destination="uBB-oE-dkQ" id="w69-D2-unx"/>
+                        <outlet property="mouthSwitch" destination="IhC-iv-yTo" id="6Q3-VP-U6c"/>
                         <outlet property="mustacheImage" destination="pIT-sP-uwF" id="cic-kf-Mqm"/>
+                        <outlet property="mustacheSwitch" destination="qdP-cX-9Ht" id="5uM-WX-s4B"/>
                         <outlet property="noseImage" destination="VjS-Fe-8yt" id="Lun-go-7rg"/>
+                        <outlet property="noseSwitch" destination="yxF-7d-aL9" id="lnc-uP-XpO"/>
                         <outlet property="shoesImage" destination="Syw-aH-J8y" id="1IT-xK-y9j"/>
+                        <outlet property="shoesSwitch" destination="FoV-si-e3I" id="8FV-UU-fnM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

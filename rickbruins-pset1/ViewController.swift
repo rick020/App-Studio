@@ -21,6 +21,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var noseImage: UIImageView!
     @IBOutlet weak var shoesImage: UIImageView!
     
+    @IBOutlet weak var armSwitch: UISwitch!
+    @IBOutlet weak var earSwitch: UISwitch!
+    @IBOutlet weak var eyebrowsSwitch: UISwitch!
+    @IBOutlet weak var eyeSwitch: UISwitch!
+    @IBOutlet weak var glassesSwitch: UISwitch!
+    @IBOutlet weak var hatSwitch: UISwitch!
+    @IBOutlet weak var mouthSwitch: UISwitch!
+    @IBOutlet weak var mustacheSwitch: UISwitch!
+    @IBOutlet weak var noseSwitch: UISwitch!
+    @IBOutlet weak var shoesSwitch: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -31,175 +43,40 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-   
-    @IBAction func removeArms(sender: UISwitch) {
+    @IBAction func changeParts(sender: UISwitch) {
         
-        //hide image when switch is turned off
-        if sender.on != true {
-            armsImage.hidden=true
-        }
-        //show image when switch is turned on
-        else{
-            armsImage.hidden=false
+        let tag = sender.tag
+    
+        //hide or show image depending on the switch tag
+        //each switch has their own tag
+        
+        switch tag {
+        case 1:
+            armsImage.hidden = !armSwitch.on
+        case 2:
+            earsImage.hidden = !earSwitch.on
+        case 3:
+            eyebrowsImage.hidden = !eyebrowsSwitch.on
+        case 4:
+            eyesImage.hidden = !eyeSwitch.on
+        case 5:
+            glassesImage.hidden = !glassesSwitch.on
+        case 6:
+            hatImage.hidden = !hatSwitch.on
+        case 7:
+            mouthImage.hidden = !mouthSwitch.on
+        case 8:
+            mustacheImage.hidden = !mustacheSwitch.on
+        case 9:
+            noseImage.hidden = !noseSwitch.on
+        case 10:
+            shoesImage.hidden = !shoesSwitch.on
+        default :
+            print(tag)
         }
     }
 
-    @IBAction func removeEars(sender: UISwitch) {
-        if sender.on != true {
-            earsImage.hidden=true
-        }
-        else{
-            earsImage.hidden=false
-        }
-    }
-    @IBAction func removeEyebrows(sender: UISwitch) {
-        if sender.on != true {
-            eyebrowsImage.hidden=true
-        }
-        else{
-            eyebrowsImage.hidden=false
-        }
-    }
-    @IBAction func removeEyes(sender: UISwitch) {
-        if sender.on != true {
-            eyesImage.hidden=true
-        }
-        else{
-            eyesImage.hidden=false
-        }
-    }
-    @IBAction func removeGlasses(sender: UISwitch) {if sender.on != true {
-        glassesImage.hidden=true
-    }
-    else{
-        glassesImage.hidden=false
-        }
-    }
-    
-    @IBAction func removeHat(sender: UISwitch) {if sender.on != true {
-        hatImage.hidden=true
-    }
-    else{
-        hatImage.hidden=false
-        }
-    }
-    @IBAction func removeMouth(sender: UISwitch) {if sender.on != true {
-        mouthImage.hidden=true
-    }
-    else{
-        mouthImage.hidden=false
-        }
-    }
-    @IBAction func removeMustache(sender: UISwitch) {if sender.on != true {
-        mustacheImage.hidden=true
-    }
-    else{
-        mustacheImage.hidden=false
-        }
-    }
-    @IBAction func removeNose(sender: UISwitch) {if sender.on != true {
-        noseImage.hidden=true
-    }
-    else{
-        noseImage.hidden=false
-        }
-    }
-    @IBAction func removeShoes(sender: UISwitch) {if sender.on != true {
-        shoesImage.hidden=true
-    }
-    else{
-        shoesImage.hidden=false
-        }
-    }
-    
-    //other method for hiding/showing images
-    
-//    @IBAction func testAction(sender: UISwitch) {
-//        
-//        let tag = sender.tag
-    
-//        //hide or show image depending on the switch
-          //each switch has their own tag
-//        switch tag {
-//        case 1:
-//            if sender.on != true {
-//                armsImage.hidden=true
-//            }
-//            else{
-//                armsImage.hidden=false
-//            }
-//        case 2:
-//            if sender.on != true {
-//                earsImage.hidden=true
-//            }
-//            else{
-//                earsImage.hidden=false
-//            }
-//        case 3:
-//            if sender.on != true {
-//                eyebrowsImage.hidden=true
-//            }
-//            else{
-//                eyebrowsImage.hidden=false
-//            }
-//        case 4:
-//            if sender.on != true {
-//                eyesImage.hidden=true
-//            }
-//            else{
-//                eyesImage.hidden=false
-//            }
-//        case 5:
-//            if sender.on != true {
-//                glassesImage.hidden=true
-//            }
-//            else{
-//                glassesImage.hidden=false
-//            }
-//        case 6:
-//            if sender.on != true {
-//                hatImage.hidden=true
-//            }
-//            else{
-//                hatImage.hidden=false
-//            }
-//        case 7:
-//            if sender.on != true {
-//                mouthImage.hidden=true
-//            }
-//            else{
-//                mouthImage.hidden=false
-//            }
-//        case 8:
-//            if sender.on != true {
-//                mustacheImage.hidden=true
-//            }
-//            else{
-//                mustacheImage.hidden=false
-//            }
-//        case 9:
-//            if sender.on != true {
-//                noseImage.hidden=true
-//            }
-//            else{
-//                noseImage.hidden=false
-//            }
-//        case 10:
-//            if sender.on != true {
-//                shoesImage.hidden=true
-//            }
-//            else{
-//                shoesImage.hidden=false
-//            }
-//
-//        default :
-//            print( "default case")
-//            
-//    
-//        }
-//    }
-    
-    }
+}
 
 
 
